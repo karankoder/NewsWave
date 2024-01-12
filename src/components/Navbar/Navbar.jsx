@@ -5,35 +5,35 @@ export default function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg mb-5" style={{ position: 'fixed', top: '0', width: '100%', height: '70px', backgroundColor: '#7373ff', color: 'white', zIndex: '1000' }}>
                 <div className="container-fluid">
-                    <Link className="navbar-brand text-light fs-2" to="/">NewsWaves</Link>
+                    <Link className="navbar-brand text-light fs-2 mb-1" to="/">NewsWaves</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link active text-light fs-4 mt-1" aria-current="page" to="/">Home</Link>
+                                <Link className="nav-link active text-light fs-4" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active text-light fs-5 mt-2" aria-current="page" to="/business">Business</Link>
+                                <Link className="nav-link active text-light fs-6 mt-2" aria-current="page" to="/business">Business</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active text-light fs-5 mt-2" aria-current="page" to="/entertainment">Entertainment</Link>
+                                <Link className="nav-link active text-light fs-6 mt-2" aria-current="page" to="/entertainment">Entertainment</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active text-light fs-5 mt-2" aria-current="page" to="general">General</Link>
+                                <Link className="nav-link active text-light fs-6 mt-2" aria-current="page" to="general">General</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active text-light fs-5 mt-2" aria-current="page" to="health">Health</Link>
+                                <Link className="nav-link active text-light fs-6 mt-2" aria-current="page" to="health">Health</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active text-light fs-5 mt-2" aria-current="page" to="science">Science</Link>
+                                <Link className="nav-link active text-light fs-6 mt-2" aria-current="page" to="science">Science</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active text-light fs-5 mt-2" aria-current="page" to="/sports">Sports</Link>
+                                <Link className="nav-link active text-light fs-6 mt-2" aria-current="page" to="/sports">Sports</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active text-light fs-5 mt-2" aria-current="page" to="/technology">Technology</Link>
+                                <Link className="nav-link active text-light fs-6 mt-2" aria-current="page" to="/technology">Technology</Link>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
